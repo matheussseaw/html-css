@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fontes em CSS</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      /*
+      Medidas Absolutas
+      cm (centimetro), mm(milimetro), in(polegada), px(pixel), pt(ponto), pc(paica)
+
+      Medidas Relativas
+      em(medida relativa ao M maisculo tamanho da fonte), ex, rem, vw, vh, %
+      16px geralmente = 1em
+      32px = 2em
+      */
+      
+
+      font-size: 1em;
+
+      /*Não confunda
+       weight(peso), width(largura), height(altura)
+
+      Pesos
+      lighter, normal, bold, bolder
+      */
+    }
+    h1 {
+      
+      /* shorthand font
+      - font-style -> font-weight -> font-size -> font-family
+
+      font-family: 'Lucida Sans', sans-serif;
+      font-weight: bolder;
+      font-size: 3em;
+      font-style: italic;
+      */
+      font: italic bolder 3em 'Lucida Sans', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1>Trabalhando com fontes</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ducimus et quas. Adipisci, expedita obcaecati odit autem magnam ducimus ratione eum error, tenetur tempore nemo harum cumque eos quaerat quas? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa fuga placeat veritatis et cum, quia iste! Earum minus, provident molestiae tenetur culpa, iure, cum consequatur deleniti sit placeat eius deserunt!</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam impedit distinctio excepturi aliquid ullam obcaecati praesentium. Dolorem, nihil error! Voluptates eveniet iusto minima voluptatibus perspiciatis doloribus doloremque exercitationem. Aperiam, ducimus!</p>
+  <h2>Subtítulo do exercício</h2>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit amet asperiores quo officia soluta adipisci, est possimus repudiandae nulla obcaecati iusto aut vel sequi molestias voluptatum praesentium quae. Fugit, exercitationem!</p>
+</body>
+</html>

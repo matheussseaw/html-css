@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+  font-family: monospace;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(26, 26, 26);
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.title {
+  font-size: 50px;
+}
